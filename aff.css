@@ -1,0 +1,25 @@
+#h11{
+    background-color: rgb(99, 16, 199);
+    color: white;
+    text-align: center;
+}
+
+#img{
+    height: 100px;
+    margin-left: 565px;
+    background-color:  rgb(37, 104, 205);
+}
+
+.gallery{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 53px;
+}
+
+#button{
+    margin-left:36px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    color: white;
+}
