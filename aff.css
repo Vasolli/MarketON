@@ -29,3 +29,27 @@
     background-color: blueviolet;
     color: white;
 }
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(273, 55%, 36%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(273, 55%, 16%);
+}
+
+.navbar li{
+    float: left;
+}
