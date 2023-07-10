@@ -19,15 +19,14 @@
 
 .gallery{
     display: inline-block;
+    border-image: fill;
     margin: 20px;
-    margin-left: px;
     border: 1px;
     border-width: 50px;
     margin-left: 100px;
 }
 
 #button{
-    margin-left:36px;
     margin-bottom: 18px;
     font-size: 20px;
     border-radius: 15px;
