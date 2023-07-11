@@ -1,8 +1,11 @@
+body{
+background-color: #ffe5b6;
+}
 #h11{
-    color: rgb(255, 255, 255);
+    color: brown;
     text-align: right;
     margin-bottom: 4px;
-    background-color: rgb(83, 80, 80);
+    background-color: #fffaeb;
 }
 
 #img{
@@ -14,7 +17,7 @@
     float: right;
     margin-right: 1077px;
     margin-top: 38px;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 .gallery{
@@ -30,12 +33,12 @@
     margin-bottom: 18px;
     font-size: 20px;
     border-radius: 15px;
-    background-color: rgb(0, 0, 0);
+    background-color: #6d412a;
     color: white;
 }
 
 #button:hover{
-    background-color: rgb(106, 101, 101);
+    background-color: #cdac79;
 }
 
 * {
@@ -46,7 +49,7 @@
 
 ul{
     list-style: none;
-    background-color: rgb(83, 80, 80);
+    background-color: #6d412a;
 }
 
 ul li{
@@ -69,14 +72,14 @@ ul li ul.dropdown li{
 
 ul li ul.dropdown{
     width:150%;
-    background-color: rgb(54, 54, 54);
+    background-color: #cdac79;
     position: absolute;
     z-index: 999;
     display: none;
 }
 
 ul li a:hover{
-    background-color: rgb(167, 167, 167);
+    background-color: #ab9685;
 }
 
 ul li:hover ul.dropdown{
@@ -87,4 +90,5 @@ ul li:hover ul.dropdown{
 #h12{
     margin-left: 20px;
     text-decoration: underline;
+    color: #6d412a;
 }
