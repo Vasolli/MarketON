@@ -2,10 +2,10 @@ body{
 background-color: #ffe5b6;
 }
 #h11{
-    color: brown;
+    color: red;
     text-align: right;
     margin-bottom: 4px;
-    background-color: #fffaeb;
+    background-color: #ffe5b6;
 }
 
 #img{
@@ -22,10 +22,7 @@ background-color: #ffe5b6;
 
 .gallery{
     display: inline-block;
-    border-image: fill;
     margin: 20px;
-    border: 1px;
-    border-width: 50px;
     margin-left: 100px;
 }
 
@@ -90,5 +87,5 @@ ul li:hover ul.dropdown{
 #h12{
     margin-left: 20px;
     text-decoration: underline;
-    color: #6d412a;
+    color: brown;
 }
