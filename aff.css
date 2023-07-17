@@ -1,41 +1,39 @@
 body{
-background-color: #ffe5b6;
-}
-#h11{
-    color: red;
-    text-align: right;
-    margin-bottom: 4px;
-    background-color: #ffe5b6;
+    background-image: url(Affim/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #img{
     height: 100px;
-    background-color:  rgb(37, 104, 205);
 }
 
 #h21{
-    float: right;
-    margin-right: 1077px;
-    margin-top: 38px;
-    color: black;
+    margin-top: 30px;
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
 }
 
 .gallery{
     display: inline-block;
     margin: 20px;
-    margin-left: 100px;
+    margin-left: 85px;
 }
 
 #button{
     margin-bottom: 18px;
     font-size: 20px;
-    border-radius: 15px;
-    background-color: #6d412a;
-    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
 }
 
 #button:hover{
-    background-color: #cdac79;
+    background-color: #737171;
 }
 
 * {
@@ -45,8 +43,13 @@ background-color: #ffe5b6;
 }
 
 ul{
+    display: block;
     list-style: none;
-    background-color: #6d412a;
+    background-color: #000000;
+    max-height: px;
+    margin-top: 0px;
+    text-align: center;
+   
 }
 
 ul li{
@@ -57,7 +60,7 @@ ul li{
 ul li a{
     display: block;
     padding: 20px 25px;
-    color: rgb(251, 251, 251);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
     font-size: 20px;
@@ -69,14 +72,16 @@ ul li ul.dropdown li{
 
 ul li ul.dropdown{
     width:150%;
-    background-color: #cdac79;
+    background-color: grey;
     position: absolute;
     z-index: 999;
     display: none;
+    border-color: #000000;
+    border-radius: 1px solid;
 }
 
 ul li a:hover{
-    background-color: #ab9685;
+    background-color: #4d4c4b;
 }
 
 ul li:hover ul.dropdown{
@@ -84,10 +89,21 @@ ul li:hover ul.dropdown{
 
 }
 
-#h12{
+
+#h11{
+    text-align:left;
     margin-left: 20px;
     text-decoration: underline;
-    color: brown;
+    color:rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+#h22{
+    height: 50px;
+    width:220px;
+    background-color: black;
+    color:white;
+    text-align: center;
 }
 
 
@@ -98,13 +114,10 @@ ul li:hover ul.dropdown{
 
 @media screen and (max-width=600px) 
 {
-    body{
-        background-color: #ffe5b6;
-        }
-
     #img{
         height: 100px;
         background-color:  rgb(37, 104, 205);
+        margin-left: 100px;
         }
         
     #h21{
@@ -117,7 +130,7 @@ ul li:hover ul.dropdown{
     .gallery{
         display: inline-block;
         margin: 20px;
-        margin-left: 100px;
+        margin-right: 200px;
         }
         
     #button{
@@ -163,14 +176,14 @@ ul li:hover ul.dropdown{
         
     ul li ul.dropdown{
         width:150%;
-        background-color: #cdac79;
+        background-color: #4d4d4d;
         position: absolute;
         z-index: 999;
         display: none;
         }
         
     ul li a:hover{
-        background-color: #ab9685;
+        background-color: #565655;
         }
         
     ul li:hover ul.dropdown{
