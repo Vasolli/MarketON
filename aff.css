@@ -1,9 +1,5 @@
 body{
-    background-image: url(Affim/Background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: rgb(216, 216, 216);
 }
 
 #img{
@@ -20,8 +16,9 @@ body{
 
 .gallery{
     display: inline-block;
+    border-style: dotted;
     margin: 20px;
-    margin-left: 85px;
+    margin-left: 18%;
 }
 
 #button{
@@ -130,7 +127,8 @@ ul li:hover ul.dropdown{
     .gallery{
         display: inline-block;
         margin: 20px;
-        margin-right: 200px;
+        margin-right: auto;
+        margin-left: auto;
         }
         
     #button{
