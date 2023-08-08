@@ -6,11 +6,13 @@ body{
     background-position: center;
 }
 
+.buttun{
+    text-align: center;
+}
 #button{
     margin-top: 170%;
     padding: 20px 30px;
     width: 300px;
-    margin-left: 10%;
     background-color: transparent;
     border-style: solid;
 }

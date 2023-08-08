@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.img{
+    text-align: center;
+}
+
+#h11{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#h51{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.books{
+    text-align: center;
+}
+
+#img2{
+    margin-left:25px;
+}

@@ -1,0 +1,51 @@
+#img{
+    display: block;
+    margin: 0px auto;
+}
+
+#h11{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.choise{
+    margin-top: 5px;
+    text-align: center;
+}
+
+#button{
+    padding: 20px 30px;
+    margin-top: 35px;
+    text-align: center;
+    width: 350px;
+    background-color: transparent;
+    border-style: solid;
+    font-size: 25px;
+}
+
+#button:hover{
+    background-color: rgba(185, 185, 185, 0.541);
+}
+
+#h21{
+    text-align: center;
+}
+
+.socials{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fa-brands.fa-instagram.fa-2x{
+    margin-right: 80px;
+}
+
+.socials:hover{
+    color:rgb(96, 81, 9)
+}
+
+
+@media screen and (max-width=600px) 
+{
+    
+}
