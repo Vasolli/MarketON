@@ -44,6 +44,13 @@
     color:rgb(96, 81, 9)
 }
 
+.Accessories{
+    text-align: center;
+}
+
+#h31{
+    color: black;
+}
 
 @media screen and (max-width=600px) 
 {
